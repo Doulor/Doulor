@@ -77,7 +77,7 @@ function statsSvg(user, repos) {
   return card(1000, 310, `
   <text x="54" y="68" fill="#9A3412" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">LIVE PROFILE CARD</text>
   <text x="54" y="116" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">${esc(user.name || username)}</text>
-  <text x="54" y="150" fill="#7C2D12" font-family="Segoe UI, Arial, sans-serif" font-size="17">AI assisted creation gallery</text>
+  <text x="54" y="150" fill="#7C2D12" font-family="Segoe UI, Arial, sans-serif" font-size="17">🏖️ ε٩(๑> ₃ <)۶з</text>
   <text x="54" y="174" fill="#9A3412" font-family="Consolas, monospace" font-size="13">updated ${updated} · data from GitHub API</text>
   ${metric(54, 'repos', user.public_repos)}
   ${metric(224, 'stars', totalStars)}
