@@ -57,14 +57,17 @@ function card(width, height, body) {
     </filter>
   </defs>
   <rect x="10" y="10" width="${width - 20}" height="${height - 20}" rx="28" fill="url(#bg)" filter="url(#soft)"/>
-  <circle cx="${width - 92}" cy="70" r="72" fill="#F97316" opacity="0.10">
-    <animate attributeName="cy" values="70;88;70" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.08;0.18;0.08" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="88" cy="${height - 54}" r="64" fill="#FB923C" opacity="0.10">
-    <animate attributeName="cx" values="88;118;88" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.08;0.16;0.08" dur="7s" repeatCount="indefinite"/>
-  </circle>
+  <path d="M54 78C166 42 282 46 404 76C540 110 653 106 792 68C857 50 905 51 946 62" stroke="#F97316" stroke-width="10" stroke-linecap="round" opacity="0.11">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M54 78C166 42 282 46 404 76C540 110 653 106 792 68C857 50 905 51 946 62;M54 88C176 54 289 48 410 82C540 118 660 96 790 62C861 44 910 58 946 74;M54 78C166 42 282 46 404 76C540 110 653 106 792 68C857 50 905 51 946 62"/>
+  </path>
+  <g opacity="0.26">
+    <rect x="760" y="224" width="146" height="14" rx="7" fill="#F97316">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -24 0; 0 0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="790" y="250" width="86" height="12" rx="6" fill="#FB923C">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 20 0; 0 0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
   ${body}
 </svg>
 `;
@@ -95,15 +98,16 @@ function statsSvg(user, repos) {
   ${metric(564, 'followers', user.followers, 1.05)}
   <g transform="translate(782 72)">
     <animateTransform attributeName="transform" type="translate" values="782 72; 782 66; 782 72" dur="4.6s" repeatCount="indefinite"/>
-    <rect width="142" height="142" rx="36" fill="#FFFFFF" fill-opacity="0.42">
-      <animate attributeName="fill-opacity" values="0.34;0.55;0.34" dur="4.6s" repeatCount="indefinite"/>
+    <rect width="142" height="142" rx="30" fill="#FFFFFF" fill-opacity="0.42">
+      <animate attributeName="fill-opacity" values="0.34;0.52;0.34" dur="4.6s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="71" cy="58" r="28" fill="#F97316" fill-opacity="0.18">
-      <animate attributeName="r" values="24;32;24" dur="4.6s" repeatCount="indefinite"/>
-      <animate attributeName="fill-opacity" values="0.12;0.28;0.12" dur="4.6s" repeatCount="indefinite"/>
-    </circle>
-    <text x="32" y="62" fill="#EA580C" font-family="Consolas, monospace" font-size="22" font-weight="900">AI</text>
-    <text x="27" y="104" fill="#9A3412" font-family="Consolas, monospace" font-size="14" font-weight="800">FIRST</text>
+    <path d="M31 48H111" stroke="#F97316" stroke-width="10" stroke-linecap="round" opacity="0.24">
+      <animate attributeName="d" values="M31 48H111;M38 42H104;M31 48H111" dur="4.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M31 72H92" stroke="#FB923C" stroke-width="10" stroke-linecap="round" opacity="0.34">
+      <animate attributeName="d" values="M31 72H92;M42 78H112;M31 72H92" dur="5.2s" repeatCount="indefinite"/>
+    </path>
+    <text x="33" y="112" fill="#9A3412" font-family="Consolas, monospace" font-size="14" font-weight="800">AI FIRST</text>
   </g>`);
 }
 
