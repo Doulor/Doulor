@@ -63,9 +63,10 @@ function card(width, height, body) {
 }
 
 function metric(x, label, value) {
-  return `<g transform="translate(${x} 108)">
-    <text x="0" y="0" fill="#EA580C" font-family="Consolas, monospace" font-size="14" font-weight="700">${esc(label)}</text>
-    <text x="0" y="42" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">${esc(value)}</text>
+  return `<g transform="translate(${x} 190)">
+    <rect width="150" height="74" rx="22" fill="#FFFFFF" fill-opacity="0.46"/>
+    <text x="22" y="28" fill="#EA580C" font-family="Consolas, monospace" font-size="13" font-weight="700">${esc(label)}</text>
+    <text x="22" y="58" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">${esc(value)}</text>
   </g>`;
 }
 
@@ -73,17 +74,20 @@ function statsSvg(user, repos) {
   const totalStars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
   const totalForks = repos.reduce((sum, repo) => sum + repo.forks_count, 0);
   const updated = new Date().toISOString().slice(0, 10);
-  return card(1000, 260, `
-  <text x="54" y="70" fill="#9A3412" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">LIVE PROFILE CARD</text>
-  <text x="54" y="108" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">${esc(user.name || username)}</text>
-  <text x="54" y="138" fill="#7C2D12" font-family="Segoe UI, Arial, sans-serif" font-size="16">AI assisted creation gallery · updated ${updated}</text>
+  return card(1000, 310, `
+  <text x="54" y="68" fill="#9A3412" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">LIVE PROFILE CARD</text>
+  <text x="54" y="116" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">${esc(user.name || username)}</text>
+  <text x="54" y="150" fill="#7C2D12" font-family="Segoe UI, Arial, sans-serif" font-size="17">AI assisted creation gallery</text>
+  <text x="54" y="174" fill="#9A3412" font-family="Consolas, monospace" font-size="13">updated ${updated} · data from GitHub API</text>
   ${metric(54, 'repos', user.public_repos)}
-  ${metric(230, 'stars', totalStars)}
-  ${metric(406, 'forks', totalForks)}
-  ${metric(582, 'followers', user.followers)}
-  <g transform="translate(760 104)">
-    <rect width="150" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.58"/>
-    <text x="26" y="29" fill="#EA580C" font-family="Consolas, monospace" font-size="15" font-weight="800">AI FIRST</text>
+  ${metric(224, 'stars', totalStars)}
+  ${metric(394, 'forks', totalForks)}
+  ${metric(564, 'followers', user.followers)}
+  <g transform="translate(782 72)">
+    <rect width="142" height="142" rx="36" fill="#FFFFFF" fill-opacity="0.42"/>
+    <circle cx="71" cy="58" r="28" fill="#F97316" fill-opacity="0.18"/>
+    <text x="32" y="62" fill="#EA580C" font-family="Consolas, monospace" font-size="22" font-weight="900">AI</text>
+    <text x="27" y="104" fill="#9A3412" font-family="Consolas, monospace" font-size="14" font-weight="800">FIRST</text>
   </g>`);
 }
 
@@ -171,8 +175,6 @@ async function main() {
         fetchAllRepos(),
       ]);
   fs.writeFileSync(path.join(outDir, 'stats.svg'), statsSvg(user, repos));
-  fs.writeFileSync(path.join(outDir, 'languages.svg'), languagesSvg(repos));
-  fs.writeFileSync(path.join(outDir, 'repos.svg'), reposSvg(repos));
 }
 
 main().catch((error) => {

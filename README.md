@@ -21,10 +21,6 @@
 
 <img width="100%" src="./assets/stats.svg" alt="Doulor generated GitHub stats" />
 
-<img width="100%" src="./assets/languages.svg" alt="Doulor generated language card" />
-
-<img width="100%" src="./assets/repos.svg" alt="Doulor generated repository cards" />
-
 </div>
 
 ---
