@@ -1,0 +1,51 @@
+<svg width="1000" height="330" viewBox="0 0 1000 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Doulor focus card</title>
+  <desc id="desc">A warm orange focus map card for Doulor's AI-assisted creation areas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FED7AA"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#9A3412" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="968" height="298" rx="32" fill="url(#bg)" stroke="#FB923C" stroke-width="4" filter="url(#shadow)"/>
+  <text x="54" y="72" fill="#9A3412" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">CURRENT FOCUS / CS BUT MAKE IT PLAYFUL</text>
+  <text x="54" y="116" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">创作方向</text>
+
+  <g transform="translate(54 150)">
+    <text x="0" y="0" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">AI 共创</text>
+    <rect x="118" y="-16" width="640" height="20" rx="10" fill="#FFEDD5" stroke="#FDBA74"/>
+    <rect x="118" y="-16" width="610" height="20" rx="10" fill="#F97316"/>
+    <text x="778" y="0" fill="#9A3412" font-family="Consolas, monospace" font-size="14">灵感 -&gt; 作品</text>
+  </g>
+
+  <g transform="translate(54 195)">
+    <text x="0" y="0" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">网页体验</text>
+    <rect x="118" y="-16" width="640" height="20" rx="10" fill="#FFEDD5" stroke="#FDBA74"/>
+    <rect x="118" y="-16" width="530" height="20" rx="10" fill="#FB923C"/>
+    <text x="778" y="0" fill="#9A3412" font-family="Consolas, monospace" font-size="14">主页 / 博客 / 交互</text>
+  </g>
+
+  <g transform="translate(54 240)">
+    <text x="0" y="0" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">小游戏</text>
+    <rect x="118" y="-16" width="640" height="20" rx="10" fill="#FFEDD5" stroke="#FDBA74"/>
+    <rect x="118" y="-16" width="440" height="20" rx="10" fill="#FDBA74"/>
+    <text x="778" y="0" fill="#9A3412" font-family="Consolas, monospace" font-size="14">故事 / 氛围 / 对话</text>
+  </g>
+
+  <g transform="translate(54 285)">
+    <text x="0" y="0" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">插件工具</text>
+    <rect x="118" y="-16" width="640" height="20" rx="10" fill="#FFEDD5" stroke="#FDBA74"/>
+    <rect x="118" y="-16" width="400" height="20" rx="10" fill="#EA580C" opacity="0.82"/>
+    <text x="778" y="0" fill="#9A3412" font-family="Consolas, monospace" font-size="14">更顺手一点</text>
+  </g>
+
+  <g transform="translate(845 74)">
+    <rect width="88" height="88" rx="24" fill="#FFFFFF" stroke="#FDBA74" stroke-width="3"/>
+    <circle cx="44" cy="44" r="24" fill="#FFEDD5"/>
+    <path d="M35 45L42 52L55 34" stroke="#F97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
