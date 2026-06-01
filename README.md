@@ -3,8 +3,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:FFF7ED,45:FDBA74,100:F97316&text=Doulor&fontColor=431407&fontSize=70&fontAlignY=34&desc=AI-assisted%20little%20worlds&descSize=18&descAlignY=55&animation=fadeIn&section=header" alt="Doulor banner" />
 
 <a href="https://www.doulor.cn">
-  <b>●</b>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=4200&pause=1200&color=F97316&center=true&vCenter=true&width=820&height=44&lines=%E6%BB%A1%E6%9C%88%E5%B1%85%E4%BA%8E%E5%A4%9C%E7%A9%BA%EF%BC%8C%E4%B8%87%E7%B1%81%E6%B2%89%E5%85%A5%E9%93%B6%E5%85%89" alt="typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=20&duration=4200&pause=1200&color=000000&center=true&vCenter=true&width=820&height=44&lines=%E8%8C%B6%E5%B7%B2%E6%B8%A9%E5%A6%A5%EF%BC%8C%E9%A3%8E%E6%90%BA%E6%B8%85%E5%AE%81;%E5%90%9B%E8%B8%8F%E5%85%89%E8%87%B3%EF%BC%8C%E6%9A%96%E6%84%8F%E7%9B%88%E5%BA%AD..." alt="typing intro" />
 </a>
 
 <p>
