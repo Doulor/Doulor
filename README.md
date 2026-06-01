@@ -17,127 +17,106 @@
 
 ---
 
-<p align="left">
-  <code>SECTION 00 / ABOUT</code>
-</p>
-
 ## 这里不是技术栈展柜，是我的 AI 作品陈列室
 
 我并不想把自己包装成很强的传统程序员。这里更多是我和 AI 一起做出来的东西：有能用的小工具，有带一点幻想感的网页，有游戏，也有个人站和博客。
 
 我喜欢把一个想法快速变成能打开、能体验、能分享的作品。代码能力还在成长，但想法、审美、整合和折腾欲一直在线。
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Doulor&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" alt="GitHub trophies" />
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="25%"><b>9</b><br/><sub>public repos</sub></td>
+    <td align="center" width="25%"><b>29</b><br/><sub>total stars</sub></td>
+    <td align="center" width="25%"><b>5</b><br/><sub>followers</sub></td>
+    <td align="center" width="25%"><b>AI first</b><br/><sub>creation mode</sub></td>
+  </tr>
+</table>
 
 ---
 
-<p align="left">
-  <code>SECTION 01 / SHOWCASE</code>
-</p>
-
 ## 作品橱窗
-
-<div align="center">
-
-<a href="https://github.com/Doulor/AIExtension-for-Powertoys-CMDPalette">
-  <img height="145" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=AIExtension-for-Powertoys-CMDPalette&theme=tokyonight&hide_border=true&border_radius=10" alt="AIExtension for PowerToys Command Palette" />
-</a>
-<a href="https://github.com/Doulor/Starfall">
-  <img height="145" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=Starfall&theme=tokyonight&hide_border=true&border_radius=10" alt="Starfall" />
-</a>
-
-<a href="https://github.com/Doulor/Blog">
-  <img height="145" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=Blog&theme=tokyonight&hide_border=true&border_radius=10" alt="Blog" />
-</a>
-<a href="https://github.com/Doulor/Home">
-  <img height="145" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=Home&theme=tokyonight&hide_border=true&border_radius=10" alt="Home" />
-</a>
-
-<a href="https://github.com/Doulor/ElytraFlip">
-  <img height="145" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=ElytraFlip&theme=tokyonight&hide_border=true&border_radius=10" alt="ElytraFlip" />
-</a>
-<a href="https://github.com/Doulor/DNSHE-Panel">
-  <img height="145" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=DNSHE-Panel&theme=tokyonight&hide_border=true&border_radius=10" alt="DNSHE Panel" />
-</a>
-
-</div>
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <b>Quick Ask AI</b><br/>
       <sub><code>AI · PowerToys · Command Palette</code></sub><br/><br/>
-      给 PowerToys Command Palette 使用的 AI 快速提问插件，把临时想问的问题塞进更顺手的入口。<br/>
-      <sub><a href="https://github.com/Doulor/AIExtension-for-Powertoys-CMDPalette">repo</a></sub>
+      给 PowerToys Command Palette 使用的 AI 快速提问插件，把临时想问的问题塞进更顺手的入口。<br/><br/>
+      <sub><a href="https://github.com/Doulor/AIExtension-for-Powertoys-CMDPalette">repo</a> · stars 5</sub>
     </td>
     <td width="50%" valign="top">
       <b>Starfall</b><br/>
       <sub><code>AI DIALOGUE · H5 GAME · STORY</code></sub><br/><br/>
-      弹幕躲避和 AI 对话结合的 H5 游戏，在破碎星域里和 Luna 一起完成一场试炼。<br/>
-      <sub><a href="https://starfall.doulor.cn/">play</a> · <a href="https://github.com/Doulor/Starfall">repo</a></sub>
+      弹幕躲避和 AI 对话结合的 H5 游戏，在破碎星域里和 Luna 一起完成一场试炼。<br/><br/>
+      <sub><a href="https://starfall.doulor.cn/">play</a> · <a href="https://github.com/Doulor/Starfall">repo</a> · stars 6</sub>
     </td>
   </tr>
   <tr>
     <td valign="top">
       <b>Blog</b><br/>
       <sub><code>PERSONAL BLOG · ASTRO · WRITING</code></sub><br/><br/>
-      基于 Mizuki 继续改造的个人博客，用来放想法、记录和一些折腾过程。<br/>
-      <sub><a href="https://blog.doulor.cn">site</a> · <a href="https://github.com/Doulor/Blog">repo</a></sub>
+      基于 Mizuki 继续改造的个人博客，用来放想法、记录和一些折腾过程。<br/><br/>
+      <sub><a href="https://blog.doulor.cn">site</a> · <a href="https://github.com/Doulor/Blog">repo</a> · stars 4</sub>
     </td>
     <td valign="top">
       <b>Home</b><br/>
       <sub><code>PERSONAL SITE · VISUAL PAGE</code></sub><br/><br/>
-      基于 imsyy 个人主页大规模重构后的主页，更像一个入口和名片。<br/>
-      <sub><a href="https://www.doulor.cn">site</a> · <a href="https://github.com/Doulor/Home">repo</a></sub>
+      基于 imsyy 个人主页大规模重构后的主页，更像一个入口和名片。<br/><br/>
+      <sub><a href="https://www.doulor.cn">site</a> · <a href="https://github.com/Doulor/Home">repo</a> · stars 2</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>ElytraFlip</b><br/>
+      <sub><code>MINECRAFT · PLUGIN · GAMEPLAY</code></sub><br/><br/>
+      一个围绕鞘翅玩法的小插件，把 Minecraft 里的移动体验再折腾一点。<br/><br/>
+      <sub><a href="https://modrinth.com/plugin/elytraflip">modrinth</a> · <a href="https://github.com/Doulor/ElytraFlip">repo</a> · stars 7</sub>
+    </td>
+    <td valign="top">
+      <b>DNSHE Panel</b><br/>
+      <sub><code>PANEL · WEB · EXPERIMENT</code></sub><br/><br/>
+      一个网页面板方向的实验项目，也是作品橱窗里的一块拼图。<br/><br/>
+      <sub><a href="https://github.com/Doulor/DNSHE-Panel">repo</a> · stars 3</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-<p align="left">
-  <code>SECTION 02 / NUMBERS</code>
-</p>
+## 一些动态和半动态卡片
 
-## 一些动态卡片
-
-<div align="center">
-
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Doulor&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="Doulor GitHub stats" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doulor&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide_title=false" alt="Doulor top languages" />
-
-</div>
-
-<div align="center">
-
-<img height="210" src="https://streak-stats.demolab.com?user=Doulor&theme=tokyonight&hide_border=true&border_radius=10&date_format=%5BY.%5Dn.j" alt="Doulor streak stats" />
-
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>PROFILE</b><br/><br/>
+      <code>public repos</code> 9<br/>
+      <code>total stars</code> 29<br/>
+      <code>followers</code> 5<br/>
+      <code>following</code> 6<br/>
+    </td>
+    <td width="50%" valign="top">
+      <b>CREATION MAP</b><br/><br/>
+      <code>AI 共创</code> ████████████████████████<br/>
+      <code>网页体验</code> ████████████████████░░░░<br/>
+      <code>小游戏</code> ████████████████░░░░░░░░<br/>
+      <code>插件工具</code> ███████████████░░░░░░░░░
+    </td>
+  </tr>
+</table>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Doulor&theme=tokyo-night&hide_border=true&area=true&custom_title=Doulor%27s%20Contribution%20Map" alt="Doulor activity graph" />
 
 ---
 
-<p align="left">
-  <code>SECTION 03 / NOW</code>
-</p>
+## 贡献贪吃蛇
 
-```text
-AI 共创       ████████████████████████░   把灵感变成能运行的作品
-网页体验      ████████████████████░░░░░   主页、博客、视觉页面和交互实验
-小游戏        ████████████████░░░░░░░░░   用故事、氛围和 AI 对话增加可玩性
-插件工具      ███████████████░░░░░░░░░░   让日常操作更快一点
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Doulor/Doulor/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Doulor/Doulor/output/github-contribution-grid-snake.svg" />
+  <img alt="Doulor contribution snake" src="https://raw.githubusercontent.com/Doulor/Doulor/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 ---
-
-<p align="left">
-  <code>SECTION 04 / LINKS</code>
-</p>
 
 ```text
 WEB      https://www.doulor.cn
