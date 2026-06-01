@@ -19,45 +19,11 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Doulor&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=EA580C&text_color=7C2D12&icon_color=F97316&ring_color=F97316&rank_icon=github" alt="Doulor GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doulor&layout=compact&langs_count=10&hide_border=true&bg_color=00000000&title_color=EA580C&text_color=7C2D12&icon_color=F97316" alt="Doulor top languages" />
+<img width="100%" src="./assets/stats.svg" alt="Doulor generated GitHub stats" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Doulor&show_icons=true&hide_border=true&bg_color=30,FFF7ED,FED7AA,FDBA74&title_color=9A3412&text_color=7C2D12&icon_color=EA580C&ring_color=F97316&rank_icon=percentile" alt="Doulor warm gradient stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doulor&layout=donut&langs_count=8&hide_border=true&bg_color=30,FFF7ED,FED7AA,FDBA74&title_color=9A3412&text_color=7C2D12" alt="Doulor donut languages" />
+<img width="100%" src="./assets/languages.svg" alt="Doulor generated language card" />
 
-</div>
-
----
-
-<div align="center">
-
-<a href="https://github.com/Doulor/AIExtension-for-Powertoys-CMDPalette">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=AIExtension-for-Powertoys-CMDPalette&hide_border=true&bg_color=00000000&title_color=EA580C&text_color=7C2D12&icon_color=F97316" alt="AIExtension for PowerToys Command Palette" />
-</a>
-<a href="https://github.com/Doulor/Starfall">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=Starfall&hide_border=true&bg_color=00000000&title_color=EA580C&text_color=7C2D12&icon_color=F97316" alt="Starfall" />
-</a>
-
-<a href="https://github.com/Doulor/Blog">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=Blog&hide_border=true&bg_color=30,FFF7ED,FED7AA,FDBA74&title_color=9A3412&text_color=7C2D12&icon_color=EA580C" alt="Blog" />
-</a>
-<a href="https://github.com/Doulor/Home">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=Home&hide_border=true&bg_color=30,FFF7ED,FED7AA,FDBA74&title_color=9A3412&text_color=7C2D12&icon_color=EA580C" alt="Home" />
-</a>
-
-<a href="https://github.com/Doulor/ElytraFlip">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=ElytraFlip&hide_border=true&bg_color=00000000&title_color=EA580C&text_color=7C2D12&icon_color=F97316" alt="ElytraFlip" />
-</a>
-<a href="https://github.com/Doulor/DNSHE-Panel">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=DNSHE-Panel&hide_border=true&bg_color=00000000&title_color=EA580C&text_color=7C2D12&icon_color=F97316" alt="DNSHE Panel" />
-</a>
-
-<a href="https://github.com/Doulor/MC-web">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=MC-web&hide_border=true&bg_color=30,FFF7ED,FED7AA,FDBA74&title_color=9A3412&text_color=7C2D12&icon_color=EA580C" alt="MC-web" />
-</a>
-<a href="https://github.com/Doulor/TBlog">
-  <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Doulor&repo=TBlog&hide_border=true&bg_color=30,FFF7ED,FED7AA,FDBA74&title_color=9A3412&text_color=7C2D12&icon_color=EA580C" alt="TBlog" />
-</a>
+<img width="100%" src="./assets/repos.svg" alt="Doulor generated repository cards" />
 
 </div>
 
