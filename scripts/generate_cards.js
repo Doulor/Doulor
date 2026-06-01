@@ -42,28 +42,37 @@ function card(width, height, body) {
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="${width}" y2="${height}" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF7ED" stop-opacity="0.92"/>
-      <stop offset="0.48" stop-color="#FED7AA" stop-opacity="0.62"/>
-      <stop offset="1" stop-color="#FDBA74" stop-opacity="0.32"/>
-    </linearGradient>
-    <linearGradient id="orange" x1="0" y1="0" x2="${width}" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#EA580C"/>
-      <stop offset="1" stop-color="#FDBA74"/>
+      <stop stop-color="#FFF7ED" stop-opacity="0.92">
+        <animate attributeName="stop-color" values="#FFF7ED;#FFEDD5;#FFF7ED" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.48" stop-color="#FED7AA" stop-opacity="0.62">
+        <animate attributeName="stop-color" values="#FED7AA;#FDBA74;#FED7AA" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#FDBA74" stop-opacity="0.32">
+        <animate attributeName="stop-color" values="#FDBA74;#FB923C;#FDBA74" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
     <filter id="soft" x="-10%" y="-10%" width="120%" height="130%">
       <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#9A3412" flood-opacity="0.13"/>
     </filter>
   </defs>
   <rect x="10" y="10" width="${width - 20}" height="${height - 20}" rx="28" fill="url(#bg)" filter="url(#soft)"/>
-  <circle cx="${width - 92}" cy="70" r="72" fill="#F97316" opacity="0.10"/>
-  <circle cx="88" cy="${height - 54}" r="64" fill="#FB923C" opacity="0.10"/>
+  <circle cx="${width - 92}" cy="70" r="72" fill="#F97316" opacity="0.10">
+    <animate attributeName="cy" values="70;88;70" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.18;0.08" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="88" cy="${height - 54}" r="64" fill="#FB923C" opacity="0.10">
+    <animate attributeName="cx" values="88;118;88" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.16;0.08" dur="7s" repeatCount="indefinite"/>
+  </circle>
   ${body}
 </svg>
 `;
 }
 
-function metric(x, label, value) {
+function metric(x, label, value, delay = 0) {
   return `<g transform="translate(${x} 190)">
+    <animateTransform attributeName="transform" type="translate" values="${x} 190; ${x} 184; ${x} 190" dur="5s" begin="${delay}s" repeatCount="indefinite"/>
     <rect width="150" height="74" rx="22" fill="#FFFFFF" fill-opacity="0.46"/>
     <text x="22" y="28" fill="#EA580C" font-family="Consolas, monospace" font-size="13" font-weight="700">${esc(label)}</text>
     <text x="22" y="58" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">${esc(value)}</text>
@@ -80,13 +89,19 @@ function statsSvg(user, repos) {
   <text x="54" y="116" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">${esc(user.name || username)}</text>
   <text x="54" y="150" fill="#7C2D12" font-family="Segoe UI, Arial, sans-serif" font-size="17">${esc(tagline)}</text>
   <text x="54" y="174" fill="#9A3412" font-family="Consolas, monospace" font-size="13">updated ${updated} · data from GitHub API</text>
-  ${metric(54, 'repos', user.public_repos)}
-  ${metric(224, 'stars', totalStars)}
-  ${metric(394, 'forks', totalForks)}
-  ${metric(564, 'followers', user.followers)}
+  ${metric(54, 'repos', user.public_repos, 0)}
+  ${metric(224, 'stars', totalStars, 0.35)}
+  ${metric(394, 'forks', totalForks, 0.7)}
+  ${metric(564, 'followers', user.followers, 1.05)}
   <g transform="translate(782 72)">
-    <rect width="142" height="142" rx="36" fill="#FFFFFF" fill-opacity="0.42"/>
-    <circle cx="71" cy="58" r="28" fill="#F97316" fill-opacity="0.18"/>
+    <animateTransform attributeName="transform" type="translate" values="782 72; 782 66; 782 72" dur="4.6s" repeatCount="indefinite"/>
+    <rect width="142" height="142" rx="36" fill="#FFFFFF" fill-opacity="0.42">
+      <animate attributeName="fill-opacity" values="0.34;0.55;0.34" dur="4.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="71" cy="58" r="28" fill="#F97316" fill-opacity="0.18">
+      <animate attributeName="r" values="24;32;24" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="0.12;0.28;0.12" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
     <text x="32" y="62" fill="#EA580C" font-family="Consolas, monospace" font-size="22" font-weight="900">AI</text>
     <text x="27" y="104" fill="#9A3412" font-family="Consolas, monospace" font-size="14" font-weight="800">FIRST</text>
   </g>`);
