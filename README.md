@@ -19,7 +19,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/stats.svg?v=8dc3b42" alt="Doulor generated GitHub stats" />
+<img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/stats.svg?v=c16d7e9" alt="Doulor generated GitHub stats" />
 
 </div>
 
