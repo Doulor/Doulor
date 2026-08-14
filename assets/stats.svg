@@ -31,7 +31,7 @@
   <text x="54" y="68" fill="#9A3412" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2">LIVE PROFILE CARD</text>
   <text x="54" y="116" fill="#431407" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">Doulor</text>
   <text x="54" y="150" fill="#7C2D12" font-family="Segoe UI, Arial, sans-serif" font-size="17">🏖️ ε٩(๑&gt; ₃ &lt;)۶з</text>
-  <text x="54" y="174" fill="#9A3412" font-family="Consolas, monospace" font-size="13">updated 2026-08-13 · data from GitHub API</text>
+  <text x="54" y="174" fill="#9A3412" font-family="Consolas, monospace" font-size="13">updated 2026-08-14 · data from GitHub API</text>
   <g transform="translate(54 190)">
     <animateTransform attributeName="transform" type="translate" values="54 190; 54 184; 54 190" dur="5s" begin="0s" repeatCount="indefinite"/>
     <rect width="150" height="74" rx="22" fill="#FFFFFF" fill-opacity="0.46"/>
