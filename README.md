@@ -17,10 +17,10 @@
 
 </div>
 
-<!-- 主入口:进入 Doulor Cloud -->
-<a href="https://www.doulor.cn">
-  <img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/enter.svg" alt="进入 Doulor Cloud" />
-</a>
+<!-- 主入口:安静的小按钮 -->
+<div align="center">
+  <a href="https://www.doulor.cn"><img width="360" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/enter.svg" alt="进入 Doulor Cloud" /></a>
+</div>
 
 <!-- 服务上线:每张卡片都是独立 SVG,点击直达对应仓库;prefers-color-scheme 自适应深浅色 -->
 <div align="center">
