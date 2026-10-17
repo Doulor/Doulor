@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="140" viewBox="0 0 428 140">
+  <!-- FluidBar · theme-aware via prefers-color-scheme (works inside <img>) -->
+  <style>
+    text { font-family: 'Segoe UI', 'Noto Sans SC', -apple-system, sans-serif; }
+    .card  { fill: #f6f8fa; }
+    .title { fill: #1f2328; font-size: 17px; font-weight: 600; }
+    .desc  { fill: #59636e; font-size: 12px; }
+    .meta  { fill: #818b98; font-size: 11px; }
+    .dot   { fill: #1a7f37; }
+    .arrow { fill: none; stroke: #818b98; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    @media (prefers-color-scheme: dark) {
+      .card  { fill: #161b22; }
+      .title { fill: #f0f6fc; }
+      .desc  { fill: #9198a1; }
+      .meta  { fill: #59636e; }
+      .dot   { fill: #3fb950; }
+      .arrow { stroke: #59636e; }
+    }
+  </style>
+  <g opacity="0">
+    <rect class="card" x="1" y="1" width="426" height="138" rx="12"/>
+    <circle class="dot" cx="26" cy="30" r="4">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <text class="title" x="40" y="35">FluidBar</text>
+    <g class="arrow" transform="translate(394,24)">
+      <path d="M0 6 H10 M6 1 L11 6 L6 11"/>
+    </g>
+    <text class="desc" x="24" y="66">Windows 灵动岛</text>
+    <text class="desc" x="24" y="86">把 macOS 动态岛带到桌面</text>
+    <text class="meta" x="24" y="116">C# · ★14</text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120">
+  <!-- enter doulor.cn · big primary CTA, theme-aware -->
+  <style>
+    text { font-family: 'Segoe UI', 'Noto Sans SC', -apple-system, sans-serif; }
+    .btn   { fill: #1a7f37; }
+    .btnh  { fill: #116329; opacity: 0; }
+    .label { fill: #ffffff; font-size: 20px; font-weight: 600; }
+    .sub   { fill: #59636e; font-size: 13px; }
+    .arrow { fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    @media (prefers-color-scheme: dark) {
+      .btn  { fill: #238636; }
+      .btnh { fill: #2ea043; }
+      .sub  { fill: #9198a1; }
+    }
+  </style>
+  <g opacity="0">
+    <rect class="btn"  x="190" y="18" width="500" height="58" rx="29"/>
+    <rect class="btnh" x="190" y="18" width="500" height="58" rx="29">
+      <!-- 呼吸微光,提示可点 -->
+      <animate attributeName="opacity" values="0;0.35;0" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+    <text class="label" x="400" y="54" text-anchor="middle">进入 Doulor Cloud</text>
+    <g class="arrow" transform="translate(556,37)">
+      <path d="M0 10 H16 M10 3 L17 10 L10 17">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 4 0; 0 0" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text class="sub" x="440" y="102" text-anchor="middle">www.doulor.cn · 域名 / 邮箱 / 网盘 / AI 中转,一个账号开箱即用</text>
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>
+  </g>
+</svg>

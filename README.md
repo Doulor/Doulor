@@ -17,9 +17,22 @@
 
 </div>
 
-<!-- 服务上线:六张卡片逐个亮起,守护进程心跳闪烁 -->
-<img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/services.svg#gh-dark-mode-only" alt="services coming online" />
-<img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/services-light.svg#gh-light-mode-only" alt="services coming online" />
+<!-- 主入口:进入 Doulor Cloud -->
+<a href="https://www.doulor.cn">
+  <img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/enter.svg" alt="进入 Doulor Cloud" />
+</a>
+
+<!-- 服务上线:每张卡片都是独立 SVG,点击直达对应仓库;prefers-color-scheme 自适应深浅色 -->
+<div align="center">
+
+<a href="https://github.com/Doulor/DoulorCloud"><img width="48%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/card-doulorcloud.svg" alt="DoulorCloud" /></a>
+<a href="https://github.com/Doulor/Clawd-Companion"><img width="48%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/card-clawd.svg" alt="Clawd-Companion" /></a>
+<a href="https://github.com/Doulor/FluidBar"><img width="48%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/card-fluidbar.svg" alt="FluidBar" /></a>
+<a href="https://github.com/Doulor/Starfall"><img width="48%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/card-starfall.svg" alt="Starfall" /></a>
+<a href="https://github.com/Doulor/ElytraFlip"><img width="48%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/card-elytraflip.svg" alt="ElytraFlip" /></a>
+<a href="https://github.com/Doulor/QuickAskAI"><img width="48%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/card-quickaskai.svg" alt="QuickAskAI" /></a>
+
+</div>
 
 <!-- 实时遥测:透明背景,深浅主题都融合(camo 会剥掉 #gh-...-only,所以 stats 不做双版本) -->
 <div align="center">
