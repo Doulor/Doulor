@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="150" viewBox="0 0 880 150">
+  <!-- shutdown: cloud fades back to outline, closing the loop with the boot splash -->
+  <rect width="880" height="150" fill="#0a0a0a"/>
+  <style>text { font-family: 'Segoe UI', 'Noto Sans SC', -apple-system, sans-serif; }</style>
+  <g transform="translate(424,30) scale(1.6)" fill="none" stroke="#525252" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+  </g>
+  <text x="440" y="112" text-anchor="middle" fill="#525252" font-size="13" letter-spacing="1">
+    茶已温妥,风携清宁 · session kept warm, see you next boot
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+  </text>
+</svg>
