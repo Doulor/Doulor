@@ -5,8 +5,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/boot-light.svg#gh-light-mode-only" alt="Doulor Cloud — booting" />
 
 <a href="https://www.doulor.cn">
-  <img src="https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=500&size=16&duration=3000&pause=1200&color=3FB950&background=00000000&center=true&vCenter=true&width=780&height=60&lines=%24+boot+doulor-cloud+--mode%3Ddream;%5Bok%5D+tea+warmed+%C2%B7+%E8%8C%B6%E5%B7%B2%E6%B8%A9%E5%A6%A5;%5Bok%5D+wind+brings+calm+%C2%B7+%E9%A3%8E%E6%90%BA%E6%B8%85%E5%AE%81;%5Bok%5D+welcome+home+%C2%B7+%E5%90%9B%E8%B8%8F%E5%85%89%E8%87%B3#gh-dark-mode-only" alt="boot log" />
-  <img src="https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=500&size=16&duration=3000&pause=1200&color=1A7F37&background=00000000&center=true&vCenter=true&width=780&height=60&lines=%24+boot+doulor-cloud+--mode%3Ddream;%5Bok%5D+tea+warmed+%C2%B7+%E8%8C%B6%E5%B7%B2%E6%B8%A9%E5%A6%A5;%5Bok%5D+wind+brings+calm+%C2%B7+%E9%A3%8E%E6%90%BA%E6%B8%85%E5%AE%81;%5Bok%5D+welcome+home+%C2%B7+%E5%90%9B%E8%B8%8F%E5%85%89%E8%87%B3#gh-light-mode-only" alt="boot log" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=500&size=16&duration=3000&pause=1200&color=238636&background=00000000&center=true&vCenter=true&width=780&height=60&lines=%24+boot+doulor-cloud+--mode%3Ddream;%5Bok%5D+tea+warmed+%C2%B7+%E8%8C%B6%E5%B7%B2%E6%B8%A9%E5%A6%A5;%5Bok%5D+wind+brings+calm+%C2%B7+%E9%A3%8E%E6%90%BA%E6%B8%85%E5%AE%81;%5Bok%5D+welcome+home+%C2%B7+%E5%90%9B%E8%B8%8F%E5%85%89%E8%87%B3" alt="boot log" />
 </a>
 
 <p>
@@ -22,16 +21,12 @@
 <img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/services.svg#gh-dark-mode-only" alt="services coming online" />
 <img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/services-light.svg#gh-light-mode-only" alt="services coming online" />
 
-<!-- 实时遥测:双主题 stats -->
+<!-- 实时遥测:透明背景,深浅主题都融合(camo 会剥掉 #gh-...-only,所以 stats 不做双版本) -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Doulor&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&icon_color=3fb950&ring_color=3fb950#gh-dark-mode-only" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doulor&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&langs_count=6#gh-dark-mode-only" alt="top languages" />
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Doulor&show_icons=true&hide_border=true&theme=default&icon_color=1a7f37&ring_color=1a7f37#gh-light-mode-only" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doulor&layout=compact&hide_border=true&theme=default&langs_count=6#gh-light-mode-only" alt="top languages" />
-
-<img height="165" src="https://streak-stats.demolab.com?user=Doulor&hide_border=true&theme=github-dark-blue&background=0d1117&ring=3fb950&fire=3fb950&currStreakLabel=3fb950#gh-dark-mode-only" alt="commit streak" />
-<img height="165" src="https://streak-stats.demolab.com?user=Doulor&hide_border=true&theme=github-green-purple&background=ffffff&ring=1a7f37&fire=1a7f37&currStreakLabel=1a7f37#gh-light-mode-only" alt="commit streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Doulor&show_icons=true&hide_border=true&bg_color=00000000&title_color=238636&text_color=59636e&icon_color=238636&ring_color=238636" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doulor&layout=compact&hide_border=true&bg_color=00000000&title_color=238636&text_color=59636e&langs_count=6" alt="top languages" />
+<img height="165" src="https://streak-stats.demolab.com?user=Doulor&hide_border=true&background=00000000&stroke=00000000&ring=238636&fire=238636&currStreakLabel=238636&sideLabels=59636e&dates=818b98&currStreakNum=1f2328&sideNums=1f2328" alt="commit streak" />
 
 </div>
 
