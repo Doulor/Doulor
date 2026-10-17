@@ -1,24 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360">
-  <!-- services coming online: cards light up one by one -->
-  <rect width="880" height="360" fill="#0a0a0a"/>
+  <!-- services coming online · dark variant (GitHub dark palette) -->
+  <rect width="880" height="360" fill="#0d1117"/>
   <style>
     text { font-family: 'Segoe UI', 'Noto Sans SC', -apple-system, sans-serif; }
-    .title { fill: #fafafa; font-size: 16px; font-weight: 600; }
-    .desc  { fill: #a3a3a3; font-size: 12px; }
-    .meta  { fill: #737373; font-size: 11px; }
-    .dot   { fill: #22c55e; }
+    .title { fill: #f0f6fc; font-size: 16px; font-weight: 600; }
+    .desc  { fill: #9198a1; font-size: 12px; }
+    .meta  { fill: #59636e; font-size: 11px; }
+    .card  { fill: #161b22; }
+    .dot   { fill: #3fb950; }
   </style>
 
-  <text x="40" y="42" fill="#737373" font-size="13" letter-spacing="3" opacity="0">
+  <text x="40" y="42" fill="#59636e" font-size="13" letter-spacing="3" opacity="0">
     $ systemctl list-units --type=service
     <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0s" fill="freeze"/>
   </text>
 
-  <!-- card template: rect lights up, dot pulses -->
   <g>
-    <!-- DoulorCloud -->
     <g opacity="0">
-      <rect x="40" y="70" width="253" height="110" rx="12" fill="#171717"/>
+      <rect class="card" x="40" y="70" width="253" height="110" rx="12"/>
       <circle class="dot" cx="62" cy="94" r="4">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
       </circle>
@@ -28,9 +27,8 @@
       <text class="meta" x="58" y="166">TypeScript · CF Workers · ★236</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/>
     </g>
-    <!-- Clawd-Companion -->
     <g opacity="0">
-      <rect x="313" y="70" width="253" height="110" rx="12" fill="#171717"/>
+      <rect class="card" x="313" y="70" width="253" height="110" rx="12"/>
       <circle class="dot" cx="335" cy="94" r="4">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
       </circle>
@@ -40,9 +38,8 @@
       <text class="meta" x="331" y="166">TypeScript · ★41</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.6s" fill="freeze"/>
     </g>
-    <!-- FluidBar -->
     <g opacity="0">
-      <rect x="586" y="70" width="253" height="110" rx="12" fill="#171717"/>
+      <rect class="card" x="586" y="70" width="253" height="110" rx="12"/>
       <circle class="dot" cx="608" cy="94" r="4">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="1.0s" repeatCount="indefinite"/>
       </circle>
@@ -52,9 +49,8 @@
       <text class="meta" x="604" y="166">C# · ★14</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.9s" fill="freeze"/>
     </g>
-    <!-- Starfall -->
     <g opacity="0">
-      <rect x="40" y="200" width="253" height="110" rx="12" fill="#171717"/>
+      <rect class="card" x="40" y="200" width="253" height="110" rx="12"/>
       <circle class="dot" cx="62" cy="224" r="4">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="1.3s" repeatCount="indefinite"/>
       </circle>
@@ -64,9 +60,8 @@
       <text class="meta" x="58" y="296">HTML5 · ★6</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.2s" fill="freeze"/>
     </g>
-    <!-- ElytraFlip -->
     <g opacity="0">
-      <rect x="313" y="200" width="253" height="110" rx="12" fill="#171717"/>
+      <rect class="card" x="313" y="200" width="253" height="110" rx="12"/>
       <circle class="dot" cx="335" cy="224" r="4">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="1.6s" repeatCount="indefinite"/>
       </circle>
@@ -76,21 +71,20 @@
       <text class="meta" x="331" y="296">Java · ★7</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.5s" fill="freeze"/>
     </g>
-    <!-- QuickAskAI -->
     <g opacity="0">
-      <rect x="586" y="200" width="253" height="110" rx="12" fill="#171717"/>
+      <rect class="card" x="586" y="200" width="253" height="110" rx="12"/>
       <circle class="dot" cx="608" cy="224" r="4">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="1.9s" repeatCount="indefinite"/>
       </circle>
       <text class="title" x="622" y="229">QuickAskAI</text>
       <text class="desc" x="604" y="254">PowerToys 快速问 AI 插件</text>
       <text class="desc" x="604" y="272">CmdPal 里一键唤起 AI</text>
-      <text class="meta" x="604" y="296">C# · PowerToys Run · ★9</text>
+      <text class="meta" x="604" y="296">C# · PowerToys · ★9</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.8s" fill="freeze"/>
     </g>
   </g>
 
-  <text x="40" y="342" fill="#22c55e" font-size="12" opacity="0">
+  <text x="40" y="342" fill="#3fb950" font-size="12" opacity="0">
     ● 6 services active · all systems operational
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.2s" fill="freeze"/>
   </text>
