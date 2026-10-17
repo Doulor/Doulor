@@ -27,8 +27,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: Doulor
 
-      - name: Commit generated cards
-        uses: stefanzweifel/git-auto-commit-action@v5
+      # 推到 output 分支而不是 main:避免 main 历史被每日自动提交刷屏
+      # (snake.yml 已经是这个做法)。README 引用也随之改到 output 分支。
+      - name: Publish generated cards
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          commit_message: Update generated profile cards
-          file_pattern: assets/*.svg
+          target_branch: output
+          build_dir: assets
+          destination_dir: cards
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

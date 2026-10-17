@@ -25,7 +25,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/main/assets/stats.svg?v=line-profile-card" alt="Doulor generated GitHub stats" />
+<img width="100%" src="https://raw.githubusercontent.com/Doulor/Doulor/output/cards/stats.svg?v=line-profile-card" alt="Doulor generated GitHub stats" />
 
 </div>
 
@@ -36,9 +36,9 @@
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Doulor&theme=minimal&hide_border=true&area=true&color=0a0a0a&line=525252&point=0a0a0a&area_color=d4d4d4&custom_title=Doulor%27s%20Contribution%20Map" alt="Doulor activity graph" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Doulor/Doulor/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Doulor/Doulor/output/github-contribution-grid-snake.svg" />
-  <img alt="Doulor contribution snake" src="https://raw.githubusercontent.com/Doulor/Doulor/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Doulor/Doulor/output/snake/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Doulor/Doulor/output/snake/github-contribution-grid-snake.svg" />
+  <img alt="Doulor contribution snake" src="https://raw.githubusercontent.com/Doulor/Doulor/output/snake/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
